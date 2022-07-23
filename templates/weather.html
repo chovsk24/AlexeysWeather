@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>alexey's weather</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+
+  <link rel="icon" href='https://scp-wiki.wdfiles.com/local--files/scp-527/fish.png'>
+
+  <body>
+<h1>Weather for {{place}}: </h1>
+<h3>The current temperature is {{temp}}°<br><br>
+    The current humidity is {{humid}}%<br><br>
+    Sunrise will be at {{sRiseF}}<br><br>
+    Sunset will be at {{sSetF}}</h3> 
+
+
+  </body>
+  <adress>
+  <footer>
+    <a href="https://github.com/chovsk24">alexey chechkovsky's code</a><br><br>
+  </footer>
+</adress>
+</html>
+
+<form method="POST">
+
+  <a href="{{ url_for('index') }}">Back</a>
+
+</form>

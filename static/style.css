@@ -1,0 +1,25 @@
+body {
+    font-family: "Helvetica Neue", Helvetica;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.4rem;
+    margin: 0 auto;
+    max-width: 768px;
+    color: #222;
+  }
+  
+  #content {
+    margin: 1rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h1,
+  h2 {
+    line-height: 2rem;
+  }
+  
+  footer {
+    display: block;
+  }
